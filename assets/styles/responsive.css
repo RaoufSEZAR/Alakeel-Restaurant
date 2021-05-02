@@ -1,5 +1,8 @@
 /* tablet */
 @media (min-width: 500px) and (max-width: 992px) {
+	* {
+	scroll-behavior: smooth;
+}
 	.container {
 		width: 90vw;
 	}
@@ -26,6 +29,9 @@
 
 /* mobile */
 @media (max-width: 499px) {
+		* {
+	scroll-behavior: smooth;
+}
 	.container {
 		width: 95vw;
 	}
